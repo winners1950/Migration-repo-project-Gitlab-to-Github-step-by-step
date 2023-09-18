@@ -1,6 +1,9 @@
 # Ray Test Project
 
+## Introduction
 
+* Name: Ray
+* Activities I like to do: Reading and technology documentaries
 
 ## Getting started
 
