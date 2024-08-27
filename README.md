@@ -5,6 +5,11 @@
 * Name: Ray Efa
 * Activities I like to do: Reading,technology and documentaries
 
+## Initialise your local environment with your Gitlab account:
+
+   Got to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add ney Keys --> Title the Key and Paste the key in the box --> Add key (this completes the initialisarion of your local and the Gitlab account. Remember at work you must need full access for the repository)
+
+
 ## Getting started with Migrating a Gitlab repo to Github.
 
 ## Migrating a repository from GitLab to GitHub can be done in a few straightforward steps. Here’s a step-by-step guide to help you through the process:
