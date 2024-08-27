@@ -7,8 +7,11 @@
 
 ### Step 1: Initialise both Gitlab SCM and Github SCM with an SSH key
    
-   ssh-keygen
-   cat ~/.ssh/id_ed25519.pub (it maybe a different id-number from your environment)
+## Generate an SSH key from your terminal   
+ssh-keygen
+
+## Cat the ONLY the public key
+cat ~/.ssh/id_ed25519.pub (it maybe a different id-number from your terminal)
 
 ### For Gitlab the procedure is below:
  
