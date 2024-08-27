@@ -35,7 +35,7 @@ cat ~/.ssh/id_ed25519.pub (it maybe a different id-number from your terminal)
 ### Step 1: Prepare Your GitLab Repository
 1. *Log in to GitLab*: Access your GitLab account and navigate to the repository you want to migrate.
 2. *Clone Your Repository*: Open your terminal (or Git Bash) and clone your GitLab repository to your local machine using the following command:
-   bash
+   
    git clone --mirror https://gitlab.com/username/repository.git
    
    Replace username and repository.git with your GitLab username and the repository name.
@@ -48,16 +48,20 @@ cat ~/.ssh/id_ed25519.pub (it maybe a different id-number from your terminal)
 
 ### Step 3: Push the Cloned Repository to GitHub
 1. *Navigate to the Cloned Repository*: Change your directory to the cloned repository:
-   bash
+   
    cd repository.git
    
 2. *Add GitHub as a Remote*: Add your newly created GitHub repository as a remote:
-   bash
+   
+
    git remote add github https://github.com/username/repository.git
+
    
    Again, replace username and repository.git with your GitHub username and repository name.
+   
 3. *Push to GitHub*: Push all branches and tags to GitHub:
-   bash
+   
+
    git push --mirror github
    
 
