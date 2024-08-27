@@ -5,7 +5,10 @@
 * Name: Ray Efa
 * Activities I like to do: Reading,technology and documentaries
 
-## Initialise your local environment with your Gitlab account:
+### Step 1: Initialise both starting SCM and target SCM with an SSH key
+   
+   ssh-keygen
+   cat ~/.ssh/id_ed25519.pub(it maybe a different id-number from your environment)
 
    Go to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add new Keys --> Title the Key and Paste the key in the box --> Add key (this completes the initialisation of your local environment and the Gitlab account. Remember at work you must need full access for the repository)
 
@@ -13,11 +16,6 @@
 ## Getting started with Migrating a Gitlab repo to Github.
 
 ## Migrating a repository from GitLab to GitHub can be done in a few straightforward steps. Here’s a step-by-step guide to help you through the process:
-
-### Step 1: Initialise both starting SCM and target SCM with an SSH key
-   bash
-   ssh-keygen
-   cat ~/.ssh/id_ed25519.pub(it maybe a different id-number from your environment)
 
 
 ### Step 1: Prepare Your GitLab Repository
