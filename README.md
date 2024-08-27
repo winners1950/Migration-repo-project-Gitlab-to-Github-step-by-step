@@ -5,12 +5,23 @@
 * Name: Ray Efa
 * Activities I like to do: Reading,technology and documentaries
 
-### Step 1: Initialise both starting SCM and target SCM with an SSH key
+### Step 1: Initialise both Gitlab SCM and Github SCM with an SSH key
    
    ssh-keygen
-   cat ~/.ssh/id_ed25519.pub(it maybe a different id-number from your environment)
+   cat ~/.ssh/id_ed25519.pub (it maybe a different id-number from your environment)
 
-   Go to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add new Keys --> Title the Key and Paste the key in the box --> Add key (this completes the initialisation of your local environment and the Gitlab account. Remember at work you must need full access for the repository)
+### For Gitlab the procedure is below:
+ 
+   Go to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add new Keys --> Title the Key and
+   Paste the key in the box --> Add key to save and quit, (this completes the initialisation of your local environment and 
+   the Gitlab account. Remember at work you must need full access for the repository). After all these process, you can now be a
+   able to clone from this account in Gitlab
+
+### For Github the procedure is below:
+
+   Go to setting --> SSH & GPG Keys --> New SSH Key --> Title the key, paste the key inside the box --> Add Key to save 
+   and quit (this completes the initialisation of your local environment and the Github account.) After all these process is 
+   done, you can now clone from this account in Github etc.
 
 
 ## Getting started with Migrating a Gitlab repo to Github.
