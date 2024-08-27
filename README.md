@@ -7,7 +7,7 @@
 
 ## Initialise your local environment with your Gitlab account:
 
-   Got to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add ney Keys --> Title the Key and Paste the key in the box --> Add key (this completes the initialisarion of your local and the Gitlab account. Remember at work you must need full access for the repository)
+   Go to settings in the Gitlab account --> Repository --> Deploy Keys (Expand) --> Add new Keys --> Title the Key and Paste the key in the box --> Add key (this completes the initialisation of your local environment and the Gitlab account. Remember at work you must need full access for the repository)
 
 
 ## Getting started with Migrating a Gitlab repo to Github.
