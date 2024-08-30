@@ -1,8 +1,8 @@
-# Ray Test Project on Repository Migration
+# Migration from Gitlab to Github
 
 ## Introduction
 
-* Name: Ray Efa
+* Owner: Ray Efa
 * Activities I like to do: Reading,technology and documentaries
 
 ### Step 1: Initialise both Gitlab SCM and Github SCM with an SSH key
