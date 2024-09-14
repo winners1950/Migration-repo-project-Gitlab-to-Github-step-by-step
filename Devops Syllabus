@@ -1,0 +1,546 @@
+________________________________________
+DevOps and Cloud Computing Training made easy at Bright Mind Tech,
+“Enterprise Approach Focused”.
+________________________________________
+
+Things to note in this training:
+
+1.	Our training program covers a comprehensive range of topics, starting from the basics with no prior knowledge required and progressing to advanced and expert levels using the enterprise approach.
+2.	You will receive digital copies of study materials and a collection of interview questions to aid your learning journey.
+3.	Our training includes real-time use cases, allowing you to apply your knowledge in practical situations.
+4.	We also provide support in preparing your resume, creating a LinkedIn account and offer job assistance to help you find employment opportunities.
+5.	Our training is a 5–6-month intensive enterprise focus program.
+________________________________________
+Introduction:
+Software Development Life Cycles (SDLC): 
+The different stages and processes involved in software development.
+Agile Methodology: 
+An approach to software development that emphasizes flexibility, collaboration, and iterative development.
+Understanding DevOps: 
+Exploring the concept of DevOps, which combines development and operations to enhance collaboration and efficiency in software development.
+Automation in DevOps: 
+Highlighting the role of automation in DevOps practices, enabling faster and more reliable software delivery.
+The Importance of DevOps: 
+Recognizing the significance of DevOps in improving software quality, accelerating time-to-market, and enhancing customer satisfaction.
+DevOps Model: 
+Examining the various models and frameworks used to implement DevOps practices, such as continuous integration and continuous deployment (CI/CD).
+DevOps Life Cycle: 
+Describing the stages involved in the DevOps life cycle, including planning, coding, testing, deployment, and monitoring.
+Market Trends and Career Scope for DevOps: 
+Analysing the current market trends and the wide range of career opportunities available in the field of DevOps.
+________________________________________
+DevOps and Cloud Tools and Prerequisites:
+Installing Pre-requisite software's (SSH Tools) in your local environment Desktop/Laptop: 
+Set up the necessary software, such as SSH tools, on your local computer to establish a connection with the AWS environment and other required tools.
+Creating an account in AWS/Azure: 
+Register for an account on the Amazon Web Services (AWS) and Microsoft Azure platforms to access their services.
+Creating EC2 Instance/VM and other services in AWS/Azure: 
+Utilize AWS/Azure services to create an EC2 instance/VM and other relevant services.
+Understanding Linux Command Line and establishing a connection between your local CLI and AWS/Azure platforms:
+Familiarize yourself with the Linux command line and its usage.
+Establish a connection between your local command line interface (CLI) and AWS/Azure to interact with your EC2 instance/VM.
+________________________________________
+Linux File/Directory structure 
+Gain an understanding of the structure and organization of files and directories in the Linux operating system.
+Linux Commands: 
+Learn and utilize various Linux commands to perform tasks and manage your system.
+Introduction:
+Linux is a powerful operating system that offers a wide range of commands for managing files, processes, and system settings. Knowing these commands will help you navigate and use Linux effectively.
+Basic Commands
+	 1. ls
+- *Description*: Lists the files and directories in the current directory.
+- *Usage*: ls (just type ls and hit Enter)
+	2. cd
+- *Description*: Changes the current directory.
+- *Usage*: cd directory_name (replace directory_name with the name of your target directory)
+	3. pwd
+- *Description*: Prints the current working directory.
+- *Usage*: pwd
+	 4. mkdir
+- *Description*: Creates a new directory.
+- *Usage*: mkdir directory_name
+	5. rmdir
+- *Description*: Removes an empty directory.
+- *Usage*: rmdir directory_name
+	6. rm
+- *Description*: Removes files or directories.
+- *Usage*: rm file_name (use with caution, as it deletes files permanently)
+	7. cp
+- *Description*: Copies files or directories.
+- *Usage*: cp source destination (for directories, add -r for recursive copy, e.g., cp -r source_dir destination_dir)
+	8. mv
+- *Description*: Moves or renames files or directories.
+- *Usage*: mv old_name new_name
+	9. Touch
+- *Description*: Creates a new empty file or updates the timestamp of an existing file.
+	9b. vi or vim
+- *Description*: Creates a new empty file. Vi or vim into a new or old file, hit “i” on your keyboard to enter insert mode, write or paste a content. Hit “esc” on your keyboard then hold down “shift” and double press letter “z” to save content.
+:wq or :x: Save and exit.
+:w: Save without exiting.
+:q!: Exit without saving.
+:q: Quit if no changes were made
+- *Usage*: touch file_name
+	10. cat
+- *Description*: Displays the contents of a file.
+- *Usage*: cat file_name
+	11. man
+- *Description*: Displays the manual of a command.
+- *Usage*: man command_name (replace command_name with the actual command)
+	12. echo
+- *Description*: Displays a line of text or a variable value.
+- *Usage*: echo "Hello, World!"
+File Permissions Commands
+	13. chmod
+- *Description*: Changes the permissions of a file or directory.
+- *Usage*: chmod permissions file_name (e.g., chmod 755 file_name)
+	14. chown
+- *Description*: Changes the owner of a file or directory.
+- *Usage*: chown new_owner file_name
+ Process Management Commands
+	15. ps
+- *Description*: Displays the currently running processes.
+- *Usage*: ps
+	16. top
+- *Description*: Displays real-time information about running processes.
+- *Usage*: top
+	17. kill
+- *Description*: Terminates a process.
+- *Usage*: kill process_id (you can find process_id using the ps command)
+	18. df
+- *Description*: Shows disk space usage of file systems.
+- *Usage*: df -h (the -h flag means "human-readable" format)
+	19. du
+- *Description*: Displays the disk usage of files and directories.
+- *Usage*: du -h directory_name
+ Networking Commands
+	20. ping
+- *Description*: Tests connectivity to another network host.
+- *Usage*: ping hostname_or_ip
+	21. ifconfig or ip
+- *Description*: Displays network configuration information.
+- *Usage*: ifconfig or ip address
+	22. wget
+- *Description*: Downloads files from the web.
+- *Usage*: wget url
+ System Commands
+	23. sudo
+- *Description*: Executes a command with superuser (administrative) privileges.
+- *Usage*: sudo command_name
+	24. exit
+- *Description*: Exits the current terminal session.
+- *Usage*: exit
+ Conclusion
+This documentation covers only a subset of the commands available in Linux. Experiment with these commands yourself.
+
+
+________________________________________Git and GitHub - Versioning
+A comprehensive course aimed at IT-Engineers to learn about Git and GitHub, focusing on version control and collaboration.
+Understanding Git: Exploring the concept of Git, a distributed version control system (VCS) that allows engineers to track and manage changes to their codebase.
+Version Control System (VCS): Understanding the purpose and benefits of using a VCS, which helps engineers track and manage changes to their code over time.
+Source Code Management (SCM): 
+Discovering the role of SCM in software development, which involves managing the source code throughout its lifecycle.
+Branching and Tagging: 
+Explaining the concepts of branching and tagging in Git, allowing engineers to work on separate code branches and label specific points in their codebase.
+Git Administration: 
+Learning about the administrative tasks involved in managing a Git repository, such as setting up access controls and user permissions.
+Git Commands: 
+Familiarizing oneself with essential Git commands to create, clone, merge, and manage repositories effectively.
+Working with Git as a DevOps and Cloud Engineer: 
+Understanding Git from an Engineer’s perspective and learning how to use it for collaborative development, including resolving conflicts and pushing changes.
+SSH Key Generation: 
+Generating SSH keys to establish secure connections between an engineer's local machine and remote Git repositories. The command is (ssh-keygen) from your terminal.
+Personal Access Key (PAT) Creation: 
+Creating a Personal Access Key (PAT) to authenticate and access Git repositories securely.
+Cloning Repositories: 
+Exploring the process of cloning Git repositories, which allows engineers to create local copies of remote repositories to work on.
+Merging Branches: 
+Understanding how to merge different branches in Git, combining changes from multiple sources into a single branch.
+Branching Strategy: 
+Discussing best practices and strategies for managing branches in Git repositories, ensuring a streamlined and efficient development process.
+Best Practices for Releases/Code Commits in any VCS: 
+Learning and implementing best practices for managing code commits and releases in any version control system (VCS), ensuring code quality and maintainability.
+________________________________________
+SonarQube
+An overview of SonarQube, a platform for continuous code quality inspection and management.
+Introduction: Introducing SonarQube and its purpose in analyzing and improving code quality.
+Pre-Requisites: 
+Explaining the requirements and dependencies needed to install and use SonarQube effectively.
+Architecture: 
+Describing the underlying architecture of SonarQube, including its components and how they interact.
+Installation: 
+Detailing the steps to install SonarQube on a server or local machine, ensuring a smooth installation process.
+Change the Port Number: 
+Explaining how to modify the default port number on which SonarQube runs, allowing customization based on specific requirements.
+Execution: 
+Providing guidance on how to start and run SonarQube, ensuring that it is up and running for code analysis.
+Administration:
+Users Creation (Normal User and Administrator): Describing the process of creating user accounts in SonarQube, distinguishing between normal users and administrators.
+Project Creation: Explaining how to create projects in SonarQube to analyse and track the quality of specific codebases.
+Project Deletion: Detailing the steps to delete projects in SonarQube when they are no longer needed.
+Token Generation: Describing how to generate access tokens in SonarQube for authentication and secure communication with external tools.
+Create Quality Profiles: Explaining how to create quality profiles in SonarQube, which define the rules and settings for code analysis.
+Create Quality Gates: Detailing the process of creating quality gates in SonarQube to define the quality threshold that code needs to meet.
+Configure Email Settings: Providing guidance on configuring email settings in SonarQube to enable email notifications for various events.
+________________________________________
+Nexus
+It is a repository manager that helps streamline the management and distribution of software components.
+Introduction: 
+Introducing Nexus and its purpose in managing repositories and facilitating efficient software development.
+Installation: 
+Detailing the steps to install Nexus on a server or local machine, ensuring a smooth installation process.
+Password and Email Change for Admin User: 
+Explaining how to change the password and email address for the administrator user in Nexus, ensuring security and personalized settings.
+Email Server Configuration: 
+Providing guidance on configuring the email server settings in Nexus, enabling email notifications for various events.
+Port Number Change: 
+Describing how to modify the default port number on which Nexus runs, allowing customization based on specific requirements.
+Context Root Change: 
+Explaining how to change the context root of Nexus, allowing it to be accessed with a different URL path.
+Nexus Directory Structure: 
+Describing the structure of directories and files in Nexus, understanding the organization of repositories and other components.
+Create the Repositories: 
+Detailing the process of creating repositories in Nexus to store and manage different types of software components.
+Integrate Maven with Nexus: 
+Explaining how to integrate Apache Maven with Nexus, allowing developers to publish and retrieve Maven artifacts from Nexus repositories.
+Create Users: 
+Providing guidance on creating user accounts in Nexus, enabling access control and defining permissions for different users.
+________________________________________
+Docker 
+1. Docker Introduction
+Docker is a platform designed to make it easier to create, deploy, and run applications by using containers. Containers allow IT engineers to package an application with all of its dependencies into a standardized unit, which can be run consistently across different computing environments, whether on a local machine, a testing environment, or production environment.
+________________________________________
+2. Containerization vs Virtualization
+•	Containerization involves creating lightweight, isolated environments (containers) that share the host system’s OS but have separate applications and their dependencies. Containers are efficient and use fewer resources than virtual machines (VMs).
+•	Virtualization involves creating full virtual machines, each with its own OS, on a host system using a hypervisor. VMs are bulkier since they include a guest OS, making them more resource-intensive than containers.
+________________________________________
+3. Docker vs Virtual Machine
+•	Docker uses containerization, which runs multiple isolated applications on a single OS kernel. Containers are faster to start and use less memory than VMs.
+•	Virtual Machines (VMs) use virtualization technology to run multiple OSes on a single physical machine. Each VM has its own OS and requires more resources, making them heavier than containers.
+________________________________________
+4. Docker Installation
+Installing Docker involves downloading the Docker Desktop for your platform (Windows, macOS, Linux) and setting it up. The installation includes Docker Engine, Docker CLI, and Docker Compose. Once installed, you can use Docker commands to create and manage containers.
+________________________________________
+5. Dockerfile
+A Dockerfile is a script containing a set of instructions that tell Docker how to build a Docker image. It typically includes commands for setting up an operating system, installing dependencies, copying files, and specifying the entry point of the application.
+________________________________________
+6. Docker Image
+A Docker Image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software: code, runtime, libraries, environment variables, and configuration files. Images are built from Dockerfiles and used to create containers.
+________________________________________
+7. Docker Adhoc Commands
+These are on-the-fly Docker commands used to interact with Docker containers and images, such as:
+•	docker run to run a container.
+•	docker ps to list running containers.
+•	docker stop to stop a container.
+________________________________________
+8. Docker Networks
+Docker Networks allow communication between Docker containers. Docker provides different networking modes, including:
+•	Bridge: Default network, allowing containers on the same host to communicate.
+•	Host: Shares the host’s network stack with the container.
+•	Overlay: Used in Docker Swarm for multi-host networking.
+________________________________________
+9. Docker Volumes
+Docker Volumes are used to persist data generated by Docker containers. Containers are ephemeral by nature, meaning data is lost when a container is stopped. Volumes allow data to persist outside of the container’s lifecycle, and they are stored on the host.
+________________________________________
+10. Docker Keywords
+Some important Docker-related keywords:
+•	Image: Blueprint for containers.
+•	Container: Runtime instance of an image.
+•	Registry: Repository for Docker images (like Docker Hub).
+•	Volume: Mechanism for persisting data.
+•	Network: How containers communicate with each other.
+________________________________________
+11. Dockerfile Creation
+Creating a Dockerfile involves defining the base image (like FROM ubuntu), adding application-specific commands (like COPY, RUN, and CMD), and setting up the environment in which the application will run. The Dockerfile is then used to build a Docker image.
+________________________________________
+12. Docker Images Creation
+Docker images are created using the docker build command, based on the instructions defined in the Dockerfile. For example:
+docker build -t my-image .
+This command builds an image named my-image using the current directory's Dockerfile.
+________________________________________
+13. Docker Images Save to DockerHub
+Once a Docker image is created, it can be saved (pushed) to DockerHub, a cloud-based repository for Docker images, using:
+bash
+Copy code
+docker push <username>/<image-name>
+This allows the image to be shared and pulled by others.
+________________________________________
+14. Docker Private Repo
+A Docker Private Repo is a self-hosted or cloud-hosted Docker registry where you can store your Docker images privately. Docker Hub also offers private repositories, or you can use a tool like Harbor or AWS ECR for private image storage.
+________________________________________
+15. Docker Compose
+Docker Compose is a tool for defining and running multi-container Docker applications. You can use a YAML file to configure application services (e.g., databases, web servers), and docker-compose will manage the lifecycle of the containers.
+________________________________________
+16. Docker Swarm
+Docker Swarm is Docker's native clustering and orchestration tool, allowing you to run and manage multiple Docker nodes (hosts) as a single cluster. It provides load balancing, service discovery, and scaling features.
+________________________________________Jenkins 
+Is an open-source automation server that facilitates continuous integration (CI), continuous delivery (CD), and continuous deployment (CD) in software development.
+Introduction:
+Continuous Integration (CI): 
+Explaining the concept of CI, which involves regularly merging code changes into a central repository and running automated tests to detect integration issues early.
+Continuous Delivery (CD): 
+Describing CD as the practice of ensuring that software is always in a releasable state, ready for deployment to production.
+Continuous Deployment (CD): 
+Explaining CD as the process of automatically deploying software to production environments after passing through the CI and CD stages.
+Installation:
+In Linux Server: 
+Detailing the steps to install Jenkins on a Linux server, ensuring a smooth installation process. See Jenkins website for installation instructions. https://www.jenkins.io/doc/book/installing/
+Create the Maven Project using Freestyle Project type:
+Integrate Maven Software if not done: 
+Explaining how to integrate Maven with Jenkins if it hasn't been done already, enabling Maven-based project configurations.
+Integrate Nexus with Jenkins: 
+Describing the process of integrating Nexus with Jenkins to manage and retrieve artifacts during builds.
+Integrate SonarQube with Jenkins: 
+Explaining how to integrate SonarQube with Jenkins to perform code quality analysis during builds.
+Configure Email Functionality: Providing guidance on configuring email functionality in Jenkins, enabling email notifications for build status and other events.
+Build Triggers:
+Poll SCM: 
+Explaining how to configure Jenkins to periodically poll the source code repository for changes and trigger builds if changes are detected.
+Build Periodically: 
+Detailing the steps to schedule builds to run at specific time intervals.
+Git Web Hooks: 
+Explaining how to configure Jenkins to trigger builds automatically when changes are pushed to a Git repository using webhooks.
+Additional Configuration:
+Discard Old Builds: 
+Explaining how to configure Jenkins to automatically discard old build artifacts and logs to save disk space.
+Disable This Project: 
+Detailing the steps to disable a specific project in Jenkins, temporarily pausing its execution.
+Delete Workspace Before Build Starts: 
+Explaining how to configure Jenkins to delete the workspace before starting a new build.
+Add Timestamps to the Console Output: 
+Providing guidance on adding timestamps to the console output of Jenkins builds for better log analysis.
+JACOCO Plugin: 
+Describing the JACOCO plugin in Jenkins, which enables code coverage reporting and analysis.
+JENKINS DIRECTORY STRUCTURE:
+Describing the structure of directories in Jenkins, organizing the files and configurations related to jobs, plugins, and other components.
+•	Jenkins Home Directory: Explaining the Jenkins home directory, which serves as the root directory for all Jenkins-related files and configurations.
+•	Jobs Directory: Describing the jobs directory within the Jenkins home directory, containing subdirectories for each job created in Jenkins.
+•	Workspace Directory: Explaining the workspace directory within each job directory, serving as a workspace for executing builds and storing build artifacts.
+•	Plugins Directory: Detailing the plugins directory within the Jenkins home directory, housing all installed plugins and their associated files.
+•	Logs Directory: Describing the logs directory within the Jenkins home directory, storing log files related to Jenkins operations and builds.
+•	Configuration Directory: Explaining the configuration directory within the Jenkins home directory, containing various configuration files for Jenkins itself.
+•	User Content Directory: Detailing the user content directory within the Jenkins home directory, allowing users to upload and store files accessible through Jenkins.
+•	Script Directory: Describing the script directory within the Jenkins home directory, where users can store scripts used in Jenkins jobs.
+•	Global Configuration Directory: Explaining the global configuration directory within the Jenkins home directory, housing configuration files for global settings and system-level configurations.
+Plugin Management in Jenkins: 
+Managing and utilizing various plugins in Jenkins for enhanced functionality and integration with other tools.
+•	Safe Restart: A plugin that allows Jenkins to restart safely, ensuring that ongoing builds and configurations are not disrupted.
+•	Next Build Number: A plugin that provides the ability to manually set the next build number for a job in Jenkins.
+•	Email Extension: A plugin that extends Jenkins' email functionality, allowing for more advanced email notifications and customization.
+•	SonarQube Scanner: A plugin that integrates SonarQube, a code analysis tool, with Jenkins, enabling code quality analysis and reporting during builds.
+•	Schedule Build: A plugin that enables scheduling builds at specific times or intervals in Jenkins.
+•	Artifactory Plugin: A plugin that integrates Jenkins with Artifactory, a binary repository manager, facilitating artifact management and deployment.
+•	Cloud Foundry: A plugin that allows Jenkins to interact with Cloud Foundry, a platform for deploying and managing applications in the cloud.
+•	Blue Ocean: A plugin that provides a modern and intuitive user interface for Jenkins, enhancing the visualization and management of pipelines and builds.
+•	Deploy to Container: A plugin that enables Jenkins to deploy applications to containers, such as Tomcat, during the build process.
+•	Deploy WebLogic: A plugin that facilitates the deployment of applications to Oracle WebLogic Server using Jenkins.
+•	Maven Integration: A plugin that integrates Apache Maven, a build automation tool, with Jenkins, enabling Maven-based project configurations and builds.
+•	JACOCO: A plugin that integrates JACOCO, a code coverage tool, with Jenkins, providing code coverage reports and analysis during builds.
+•	SSH Agent: A plugin that allows Jenkins to securely use SSH keys for authentication and communication with remote servers.
+•	Publish Over SSH: A plugin that enables Jenkins to publish artifacts and files to remote servers using SSH.
+•	Thin Backup: A plugin that provides backup and restore functionality for Jenkins configurations and data.
+•	Build Name Setter: A plugin that allows customizing the names of Jenkins builds based on specific criteria or variables.
+•	Convert To Pipeline: A plugin that assists in converting traditional Jenkins jobs to Jenkins pipeline format, enabling more advanced and flexible build configurations.
+Jenkins Security: 
+Managing security and access control in Jenkins to ensure a secure and controlled environment for users and projects.
+•	Create Users (Default Admin): Creating user accounts in Jenkins, including the default admin user, to allow individuals to access and use Jenkins.
+•	Provide Specific Access to Jenkins: Granting specific permissions and access levels to users in Jenkins, ensuring that they have the appropriate privileges based on their roles and responsibilities.
+•	Provide Access to Specific Projects: Controlling access to specific projects in Jenkins, allowing users to only view or modify projects for which they have been granted access.
+•	Create Pipeline Project Jobs: Creating pipeline project jobs in Jenkins, which define continuous integration and delivery pipelines using a Jenkinsfile or pipeline script.
+•	http:/!localhost:8080/env-vars.html/: Accessing the environment variables page in Jenkins, which provides a list of environment variables available for use in Jenkins pipeline scripts or project configurations.
+•	Create Multibranch Pipeline Project Jobs: Creating multibranch pipeline project jobs in Jenkins, which automatically create separate pipelines for different branches of a project repository.
+•	Create Master/Slave: Configuring Jenkins to create a master/slave or master/agent setup, allowing distributed builds and increasing the scalability and efficiency of Jenkins.
+________________________________________
+AWS
+Cloud & AWS – Cloud Infrastructure Engineer: Referring to a role that focuses on managing and implementing cloud infrastructure solutions, specifically within the Amazon Web Services (AWS) platform our Cloud of choice.
+Managed and Self-Managed Infrastructures and their Examples: Describing two types of cloud infrastructures:
+•	Managed Infrastructures: 
+Cloud infrastructures where the service provider handles the management and maintenance of the underlying hardware and software resources. Examples include AWS, Elastic Beanstalk, Google App Engine, Microsoft Windows Azure, and Red Hat OpenShift on IBM Cloud.
+•	Self-Managed Infrastructures: 
+Cloud infrastructures where the user is responsible for managing and maintaining the underlying hardware and software resources. Examples include Google Compute Engine (GCE), Digital Ocean, and Microsoft Azure.
+IaaS (Infrastructure as a Service): 
+Referring to a cloud computing model that provides on-demand access to cloud-hosted physical and virtual servers, storage, and networking resources. It allows customers to provision, configure, and use these resources similar to on-premises hardware.
+PaaS (Platform as a Service): 
+Describing a cloud computing model where the cloud service provider offers a platform that includes infrastructure components, such as operating systems, databases, and development frameworks. It allows users to focus on building and deploying applications without worrying about the underlying infrastructure.
+SaaS (Software as a Service): 
+Referring to a cloud computing model where the cloud service provider offers software applications accessible over the internet. The provider hosts the hardware, software tools, and the application itself, allowing users to access and use the software without the need for installation or management.
+Elastic Compute Cloud (EC2): 
+Referring to a cloud computing service provided by Amazon Web Services (AWS) that allows users to rent virtual machines, known as EC2 instances, and utilize various storage and networking resources.
+Introduction to Amazon EC2: 
+Providing an overview of Amazon EC2 as a cloud computing service that offers resizable compute capacity in the AWS cloud. It allows developers to have control over web-scaling and computing resources.
+Launch Our First EC2 Instance: 
+Describing the process of creating and launching an EC2 instance, which involves selecting an Amazon Machine Image (AMI), configuring instance details, and setting up security groups.
+Security Groups: 
+Referring to a feature in EC2 that acts as a virtual firewall, controlling inbound and outbound traffic for EC2 instances. Security groups are used to define rules that allow or deny specific types of traffic.
+EC2 Instance User Data: 
+Describing the ability to provide user data when launching an EC2 instance, which allows users to run scripts or execute commands during the instance initialization process.
+Summary of EC2 Section: 
+Providing a summary of the EC2 section, which covers the basics of Amazon EC2, including instance creation, security groups, and user data.
+Amazon Machine Instance (AMI): 
+Referring to a template used to launch EC2 instances, which includes the operating system, software, and configuration settings.
+Elastic IP (EIP): 
+Describing a feature in EC2 that provides a static public IP address that can be associated with an EC2 instance, allowing it to maintain the same IP address even if the instance is stopped or restarted.
+EBS (Elastic Block Store): 
+Referring to a storage service in EC2 that provides persistent block-level storage volumes for EC2 instances. It allows users to create, attach, and detach volumes to EC2 instances.
+Volumes: 
+Describing the storage volumes in EBS, which can be attached to EC2 instances and used as hard drives. Volumes can be resized and moved between instances.
+Snapshots: 
+Referring to a feature in EBS that allows users to create point-in-time snapshots of volumes, which can be used for backup, replication, and disaster recovery purposes.
+EFS (Elastic File System): 
+Referring to a scalable and fully managed file storage service in AWS that can be used with EC2 instances. It provides shared file storage across multiple instances.
+Simple Storage Service (S3) Essentials: 
+Providing an introduction to Amazon S3, which is an object storage service that offers scalability, data availability, security, and performance. It allows users to store, manage, analyze, and protect any amount of data for various use cases.
+Creating S3 Buckets Using The Console and CLI: 
+Describing the process of creating S3 buckets, which are containers for objects, using both the Amazon S3 console and the AWS Command Line Interface (CLI).
+S3 Storage Options and Types: 
+Explaining the different storage options and types available in S3, such as S3 Intelligent-Tiering, S3 Express One Zone, S3 Glacier, and more. These options provide flexibility in terms of cost, availability, and durability based on specific use cases.
+Create an S3 Website: 
+Describing the capability of hosting a static website on S3 by configuring the bucket as a website endpoint and setting up the necessary permissions and configurations.
+S3 Version Control: 
+Explaining the feature of versioning in S3, which allows users to keep multiple versions of an object in the bucket. This helps in tracking changes, recovering previous versions, and maintaining data integrity.
+Cross Region Replication: 
+Describing the ability to replicate objects and their metadata to one or more destination buckets in different AWS Regions. This feature provides benefits such as reduced latency, compliance, security, and disaster recovery.
+S3 Lifecycle Management & Glacier: 
+Explaining the lifecycle management feature in S3, which automates the transition and expiration of objects based on predefined rules. It allows users to move data to different storage classes, including Glacier, for cost optimization and long-term archiving.
+S3 – Security, Snowball & S3 Summary: 
+Highlighting the importance of security in S3, including features like access controls, bucket policies, and encryption. Additionally, mentioning the Snowball service, which enables offline data transfer to and from S3. Concluding with a summary of the S3 section.
+Elastic Block Store (EBS):
+What is EBS and its uses: Explaining that EBS is a block-level storage service offered by Amazon Web Services (AWS) that provides persistent storage volumes for EC2 instances. It allows users to store and retrieve data for various applications and use cases.
+EBS Policies and their benefits: Describing the policies available for managing EBS volumes, such as snapshot policies for automated backups and encryption policies for data security. These policies offer benefits like data protection, compliance, and ease of management.
+How to launch EBS with N nodes and other concepts: Explaining the process of launching an EBS volume with multiple nodes and discussing related concepts, such as attaching and detaching volumes, resizing volumes, and managing data persistence.
+Auto Scaling:
+Launching Configuration: Describing the steps involved in setting up an Auto Scaling group, including defining launch configurations that specify instance details and configurations.
+Scaling Policies: Explaining how to define scaling policies in Auto Scaling, which determine when and how to scale the number of instances based on predefined conditions.
+Demo with Dynamic Scaling: Demonstrating how to configure dynamic scaling in Auto Scaling, where the number of instances automatically adjusts based on factors like CPU utilization or network traffic.
+Integrating Autoscaling with ELB: Explaining the integration of Auto Scaling with Elastic Load Balancer (ELB), which allows the load balancer to distribute traffic across multiple instances that are automatically scaled.
+Virtual Private Cloud (VPC):
+VPC overview: Providing an overview of VPC as a virtual network within AWS, which allows users to launch AWS resources in a logically isolated section of the cloud.
+Building own custom VPC: Explaining the process of creating a custom VPC, including defining IP address ranges, subnets, route tables, and network gateways.
+Network Address Translation (NAT): Describing NAT in the context of VPC, which allows instances within a private subnet to communicate with the internet or other AWS services.
+Access Control List (ACLs): Explaining ACLs in VPC, which act as a firewall controlling inbound and outbound traffic at the subnet level.
+Custom VPC: Discussing the advantages and use cases for creating a custom VPC, which offers more control and customization compared to the default VPC.
+o	VPC clean up: Providing guidance on cleaning up and deleting a VPC when it is no longer needed.
+o	VPC summary: Summarizing the key points and concepts covered in the VPC section.
+Identity Access Management (IAM):
+Introduction of IAM: Explaining that IAM is a service in AWS that enables the management of user identities and their permissions to access AWS resources securely.
+Users, Groups, Roles: Describing the different entities in IAM, including users (individuals), groups (collections of users), and roles (permissions for AWS services or resources).
+Policies and Permissions: Explaining how policies are used in IAM to define permissions and access control for users, groups, and roles.
+AWS CLI Setup: Referring to the setup process for the AWS Command Line Interface (CLI), which allows users to interact with AWS services through command-line commands.
+________________________________________
+Prometheus
+ Referring to an open-source monitoring and alerting toolkit designed for collecting and analysing metrics from various targets in real-time. Prometheus provides a flexible query language, powerful data model, and extensive ecosystem of integrations for monitoring and observability purposes.
+________________________________________
+Grafana 
+Describing Grafana as an open-source platform for visualizing and analyzing time-series data. Grafana allows users to create interactive and customizable dashboards that display metrics and logs from various data sources, including Prometheus. It provides a user-friendly interface for data exploration, visualization, and alerting.
+________________________________________
+Kubernetes Introduction
+Referring to an overview of Kubernetes, an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. Kubernetes provides a robust and scalable architecture for running applications in a distributed environment.
+Architecture: 
+Describing the architecture of Kubernetes, which consists of various components such as the control plane, nodes, pods, and containers. These components work together to ensure the efficient management and operation of applications.
+Kubernetes Cluster (Self-Managed) Setup Using Kubeadm:
+ Explaining the process of setting up a self-managed Kubernetes cluster using Kubeadm, a command-line tool for bootstrapping Kubernetes clusters. This involves initializing the control plane, joining worker nodes, and configuring networking.
+Kubernetes Namespace: 
+Describing Kubernetes namespaces, which provide a way to logically divide and isolate resources within a cluster. Namespaces help in organizing and managing applications, allowing multiple teams or projects to coexist within the same cluster.
+Kubernetes Objects:
+•	Pod: Referring to the basic building block in Kubernetes, a Pod is the smallest and simplest unit in the Kubernetes object model. It represents a single instance of a running process within the cluster and can contain one or more containers.
+•	Replication Controller: Describing a Kubernetes object that ensures a specified number of Pod replicas are running at all times. It is responsible for maintaining the desired state of the replicas, scaling them up or down as needed.
+•	Replica Set:
+Explaining that a Replica Set is an enhanced version of the Replication Controller. It provides more advanced selectors and a flexible matching mechanism to manage the lifecycle of Pod replicas.
+•	Daemon Set: 
+Describing a Kubernetes object that ensures that a specific Pod is running on each node in the cluster. It is typically used for running system daemons or background processes that need to be present on every node.
+•	Deployment: 
+Referring to a Kubernetes object that provides declarative updates to manage the deployment of Pods and Replica Sets. It allows for easy scaling, rolling updates, and rollbacks of application deployments.
+•	Rolling Update Recreate: 
+Explaining a deployment strategy in Kubernetes where Pods are updated or recreated one at a time, ensuring that the application remains available during the update process.
+•	Blue Green: 
+Describing a deployment strategy where two identical environments, referred to as "blue" and "green," are created. The new version of an application is deployed in the green environment and switched over once it is deemed stable.
+•	Stateful Set: 
+Referring to a Kubernetes object that manages the deployment and scaling of stateful applications. It provides guarantees about the ordering and uniqueness of Pods, making it suitable for applications that require stable network identities and persistent storage.
+•	Service: 
+Describing a Kubernetes object that provides a stable network endpoint to access a set of Pods. It allows for load balancing and service discovery within the cluster.
+o	ClusterIP: Describing a type of Service that exposes the Service on an internal IP address reachable within the cluster.
+o	NodePort: Explaining a type of Service that exposes the Service on a specific port on each node in the cluster, allowing external access.
+•	Load Balancers: 
+Referring to a type of Service that automatically provisions a load balancer from a cloud provider to distribute traffic to the Service.
+•	Volumes: 
+Explaining that Volumes are Kubernetes objects used for persistent storage in Pods. They provide a way to store and share data between containers in a Pod, surviving container restarts.
+•	Persistent Volume: 
+Describing a Kubernetes object that represents a piece of network-attached storage in the cluster, which can be dynamically provisioned or statically allocated.
+•	Persistent Volume Claim: 
+Referring to a Kubernetes object that is used by Pods to request a specific amount of storage from a Persistent Volume. It provides a way to dynamically bind and use the available storage resources.
+•	Dynamic Volumes: 
+Referring to the ability in Kubernetes to dynamically provision and manage storage volumes for Pods. Dynamic Volumes allow for on-demand allocation of storage resources based on the needs of the application.
+•	Config Maps & Secrets: 
+Describing Kubernetes objects used to store configuration data and sensitive information, respectively. Config Maps provide a way to decouple configuration from application code, while Secrets securely store sensitive data such as passwords or API keys.
+•	HPA & Metrics Server: 
+Explaining the Horizontal Pod Autoscaler (HPA), a Kubernetes feature that automatically adjusts the number of Pod replicas based on resource usage metrics. The Metrics Server is a component that collects and exposes resource utilization data for HPA to use.
+•	EKS Kubernetes Cluster Setup Using Terraform: 
+Referring to the process of setting up a Kubernetes cluster in AWS using Terraform, an infrastructure provisioning tool. EKS (Elastic Kubernetes Service) is a managed Kubernetes service provided by AWS.
+•	Load balancer Service:
+
+o	Network LB: Explaining a type of load balancer Service in Kubernetes that operates at the network layer (Layer 4) and distributes traffic to backend Pods based on IP addresses.
+o	Application LB: Describing a type of load balancer Service in Kubernetes that operates at the application layer (Layer 7) and can make routing decisions based on HTTP/HTTPS headers.
+o	HAProxy: Referring to HAProxy, a popular open-source load balancer that can be used as an alternative load balancer solution in Kubernetes.
+•	Ingress Controller & Resource: 
+Describing the Ingress Controller, a Kubernetes component that manages ingress rules and routes external traffic into the cluster. The Ingress Resource is an API object that defines rules and configuration for routing external traffic to Services inside the cluster.
+•	Liveness & Readiness probes: 
+Explaining two types of health checks that can be configured for Pods in Kubernetes. Liveness probes check if a Pod is responsive, while Readiness probes determine if a Pod is ready to receive traffic.
+•	Kubernetes RBAC: 
+Referring to Kubernetes Role-Based Access Control (RBAC), which allows fine-grained control over access to Kubernetes resources. RBAC enables administrators to define roles, role bindings, and service accounts to manage user permissions within the cluster.
+•	Kubernetes & Jenkins Integration: 
+Describing the integration between Kubernetes and Jenkins, a popular open-source automation server. This integration allows for the deployment of applications and pipelines in Kubernetes using Jenkins.
+•	Kubernetes Dashboard Setup: 
+Referring to the setup process for the Kubernetes Dashboard, a web-based user interface for managing and monitoring Kubernetes clusters. The Dashboard provides visibility into cluster resources and allows for the management of applications and configurations.
+•	Helm: 
+Describing Helm, a package manager for Kubernetes that simplifies the deployment and management of applications. Helm allows users to define, install, and upgrade applications using charts, which are pre-packaged application templates.
+•	Monitor Kubernetes Using Prometheus And Grafana:
+ Explaining the process of monitoring Kubernetes clusters using Prometheus, an open-source monitoring and alerting tool, and Grafana, an open-source platform for visualizing and analyzing metrics. Prometheus collects and stores metrics from Kubernetes, while Grafana provides a user-friendly interface for data visualization and analysis.
+________________________________________
+Infrastructure as a code (IaaC) with Terraform
+What is Terraform: 
+Referring to Terraform as an open-source tool used for infrastructure provisioning and management. It allows users to define and manage infrastructure resources using a declarative configuration language.
+Importance of Terraform over other IaaC tools: 
+Explaining the advantages of using Terraform compared to other infrastructure-as-code tools. Terraform is cloud-agnostic, supports multi-cloud environments, and offers a single, easy-to-learn configuration language.
+Terraform installation on Windows and Linux: 
+Describing the process of installing Terraform on Windows and Linux operating systems. This involves downloading the Terraform binary and configuring the system's PATH variable. Follow the link below to Github on how to install Terraform:
+https://github.com/LandmakTechnology/terraform-series/tree/main/01%20-%20Introduction
+https://developer.hashicorp.com/terraform/install
+Infrastructure automation using Terraform and Ansible: 
+Explaining how Terraform and Ansible can be used together for infrastructure automation. Terraform is used for provisioning and managing infrastructure resources, while Ansible is used for configuration management and application deployment.
+________________________________________
+Ansible
+Introduction: 
+Ansible is an open-source IT automation engine that simplifies various tasks such as provisioning, configuration management, application deployment, orchestration, and more. It is designed to automate processes in a simple and efficient manner.
+Architecture: 
+Ansible is agentless and relies on temporary remote connections via SSH or Windows Remote Management for executing tasks. It handles configuration management, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. Ansible uses a declarative language that approaches plain English, making it easy to understand and use.
+SSH Key Generation:
+Referring to the process of generating SSH key pairs, which consist of a public key and a private key. These keys are used for secure authentication and communication between systems.
+Copy SSH Key: 
+Describing the process of copying the public key to remote servers to enable passwordless SSH authentication. This allows for secure and automated access to remote systems.
+Ansible Adhoc Commands: 
+Explaining the use of Ansible adhoc commands, which are one-time commands executed on remote systems without the need for a playbook. Adhoc commands are useful for performing quick tasks or gathering information.
+Ansible Playbooks: 
+Describing Ansible playbooks, which are YAML files that define a set of tasks and configurations to be applied to remote systems. Playbooks allow for the automation and orchestration of complex tasks and deployments.
+Execution of Ansible Playbooks: 
+Explaining how to execute Ansible playbooks to apply configurations and perform tasks on remote systems. Playbooks are executed using the ansible-playbook command and can be run against specific hosts or groups of hosts.
+Ansible Modules: 
+Referring to the pre-built modules provided by Ansible that allow for the execution of specific tasks on remote systems. Modules cover a wide range of functionalities, such as managing files, installing packages, and configuring services.
+Ansible Variables, Group/Host Variables: 
+Explaining the use of variables in Ansible to store and reuse values. Variables can be defined at different levels, including playbook-level variables, group variables, and host variables, allowing for flexible and dynamic configurations.
+Loops & Conditions: 
+Describing the use of loops and conditions in Ansible playbooks to perform repetitive tasks or execute tasks conditionally based on certain criteria. Loops and conditions enhance the flexibility and control of playbook execution.
+Roles: 
+Explaining roles in Ansible, which are a way to organize and reuse playbooks and tasks. Roles provide a structured approach to managing complex configurations and allow for modular and reusable code.
+Ansible Vault: 
+Referring to Ansible Vault, a feature that allows for the encryption and secure storage of sensitive data, such as passwords and API keys, within Ansible playbooks and files.
+Ansible Galaxy: 
+Describing Ansible Galaxy, a platform for sharing and discovering Ansible roles, playbooks, and collections. Ansible Galaxy provides a repository of community-contributed content that can be easily integrated into Ansible projects.
+Dynamic Inventory:
+Explaining dynamic inventory in Ansible, which allows for the automatic generation of inventory files based on external sources, such as cloud providers or configuration management databases. Dynamic inventory enables the dynamic management of hosts and groups in Ansible.
+Documentation on installing Ansible on the following link:
+https://github.com/rayeeta/Ansible-mc-series/tree/main
+https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#
+
+
+
+
+
